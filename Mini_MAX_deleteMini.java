@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Test01_02 {
+public class Mini_MAX_deleteMini {
     public static void main(String[] args) {
         //在集合中<>中应该放入泛型
         //找到最小值后删除最小值（试一下不就知道怎么写了）
