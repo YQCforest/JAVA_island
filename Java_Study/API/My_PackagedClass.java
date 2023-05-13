@@ -70,6 +70,7 @@ public class My_PackagedClass {
 
         //拥有了类型转换的方法之后，更改键盘录入的方法
         //nextLine 可以录入在控制台中输入的空格制表符和回车
+        //约定：之后的所有键盘录入都用nextLine方法，之后再经行数据类型之间的转换
         Scanner sc = new Scanner(System.in);
         System.out.println("请输入一个数:");
         String result = sc.nextLine();
