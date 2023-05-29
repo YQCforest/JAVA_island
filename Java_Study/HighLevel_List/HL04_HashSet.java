@@ -100,3 +100,17 @@ class student{
         return "student{name = " + name + ", age = " + age + "}";
     }
 }
+/*
+24022543
+24022543
+-----------
+true
+true
+true
+true
+false
+student{name = 张三, age = 23}
+student{name = 李四, age = 24}
+student{name = 王五, age = 25}
+student{name = 赵六, age = 26}
+*/
