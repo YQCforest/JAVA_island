@@ -135,3 +135,15 @@ class person implements Comparable <person>{
         return this.getAge()-o.getAge();
     }
 }
+/*
+-----------test-------------
+[1, 2, 3, 4, 5]
+------------------
+1 2 3 4 5 
+-----------test02------------
+person{name = zhanSan, age = 22}
+person{name = wangWu, age = 23}
+person{name = liSi, age = 25}
+-----------test03------------
+[c, ad, df, qwer]
+*/
