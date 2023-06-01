@@ -154,8 +154,7 @@ public class Stream_Flow {
 
     public static void practice02(){
         //添加姓名和年龄 并将其存入Map中，键值为姓名，数据值为年龄，并且添加的是年龄>=24岁的人
-
-
+        
         List<String> mylist = new ArrayList<>();
         Collections.addAll(mylist,"zhangSan,23","liSi,24","wangWu,25");
 
@@ -165,16 +164,16 @@ public class Stream_Flow {
                 s -> Integer.parseInt(s.split(",")[1])
         ));
         System.out.println(map);
-       /* Map<String, Integer> map = mylist.stream().collect(Collectors.toMap(
-                s -> s.split(",")[0]
-                ,
-                s->Integer.parseInt(s.split(",")[1])
-        ));
-        System.out.println(map);*/
     }
 
     public static void  practice03(){
-
+        
+        /*  创建一个Actor类，类中只有姓名和年龄
+            在集合中添加男演员 Stream流后要求：姓名长度为三，并且只获取前两个
+            在另一个集合中添加女演员 Stream流后要求：姓杨，并且跳过第一个
+            将两个流合并为一个流，最后存入到List集合中
+        */
+        
         Actor manActor1 = new Actor("黄嘉达",23);
         Actor manActor2 = new Actor("杨轲",25);
         Actor manActor3 = new Actor("徐自鹏",26);
