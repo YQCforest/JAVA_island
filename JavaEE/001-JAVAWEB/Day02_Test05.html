@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM对象-获取元素</title>
+</head>
+<body>
+    
+    <span id="s1">这是一个行内元素</span> 
+    <br><br>
+    <div class="css">这是第一个div标签</div>
+    <div class="css">这是第二个div标签</div>
+    <br><br>
+    <input type="checkbox" name="hobby"> 电影
+    <input type="checkbox" name="hobby"> 音乐
+    <input type="checkbox" name="hobby"> 旅游
+    <br><br>
+    
+
+</body>
+<!-- DOM获取元素 -->
+<script>
+    // 根据id获取元素 返回值为一个变量
+    var s = document.getElementById('s1');
+    alert(s);
+    // 根据标签获取元素 返回值是一个数组
+    var Divs = document.getElementsByTagName('div');
+    for (let i = 0; i < Divs.length; i++) {
+       alert(Divs[i]);
+    }
+    //根据name属性获取元素 返回值为数组
+    var ins = document.getElementsByName('hobby');
+    for (let i = 0; i< ins.length; i++) {
+       alert(ins[i]);
+    }
+    //根据class属性获取元素 返回值为数组
+    var insCss = document.getElementsByClassName('css');
+    for (let i = 0; i < insCss.length; i++) {
+       alert(insCss[i]); 
+    }
+</script>
+</html>
