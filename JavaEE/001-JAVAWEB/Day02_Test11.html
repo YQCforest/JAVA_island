@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>v-for 指令</title>
+    <script src="JavaScriptFile/vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- v-for指令中的addres就是相当于在Address中遍历得到的每一个元素,index就是每一个索引  -->
+        <!-- 想要在浏览器中显示出数组中的元素就要用到插值表达式:{{}} -->
+        <div v-for="(addres,index) in Address">{{index}}:{{addres}}</div>
+
+    </div>
+</body>
+<script>
+
+    new Vue({
+        el:"#app",
+        data:{
+            Address:["北京","上海","杭州","南京"]
+        },
+        methods: {
+            
+        }
+    })
+</script>
+</html>
