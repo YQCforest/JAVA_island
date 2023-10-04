@@ -1,6 +1,4 @@
-package Second_List;
-
-
+//链表
 import java.util.Iterator;
 import java.util.function.Consumer;
 
