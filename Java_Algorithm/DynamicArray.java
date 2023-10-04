@@ -1,4 +1,4 @@
-package First_Array;
+//动态数组
 
 import java.util.Arrays;
 import java.util.Iterator;
