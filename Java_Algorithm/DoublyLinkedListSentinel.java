@@ -1,5 +1,4 @@
-package Thired_DoublyLinkedList;
-
+//双向带哨兵链表
 import java.util.Iterator;
 
 public class DoublyLinkedListSentinel implements Iterable<Integer> {
