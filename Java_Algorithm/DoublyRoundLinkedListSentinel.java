@@ -1,7 +1,4 @@
-package Fourth_DoublyRoundLinkedListSentinel;
-
 //双向带哨兵循环链表
-
 import java.util.Iterator;
 
 public class DoublyRoundLinkedListSentinel implements Iterable<Integer> {
