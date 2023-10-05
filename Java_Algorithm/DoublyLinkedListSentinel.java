@@ -45,7 +45,7 @@ public class DoublyLinkedListSentinel implements Iterable<Integer> {
         insertByIndex(0, value);
     }
 
-    //尾插节点
+    //头删节点
     public void removeFirst() {
         removeByIndex(0);
     }
